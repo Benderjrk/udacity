@@ -23,5 +23,6 @@
     width: 100%;
 }
 #restaurants-list li {
-    width: 80%;
+    width: 33%;
+    margin: 1em;
 }
