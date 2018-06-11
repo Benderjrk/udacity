@@ -144,6 +144,10 @@ createRestaurantHTML = (restaurant) => {
   image.alt = restaurant.photograph_alt;
   li.append(image);
 
+  const caption = document.createElement('p');
+  caption.innerHTML = `${restaurant.photograph_title} <br>${restaurant.photograph_alt}`;
+  li.append(caption);
+
   const name = document.createElement('h1');
   name.innerHTML = restaurant.name;
   li.append(name);
@@ -178,7 +182,9 @@ addMarkersToMap = (restaurants = self.restaurants) => {
   });
 }
 
-if ('serviceWorker' in navigator) {
+if (!navigator.serviceWorker) {
+  console.log('No Service Worker');
+} else {
     navigator.serviceWorker.register('/sw.js', {scope: '/'})
         .then(function(reg) {
             // registration worked

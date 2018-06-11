@@ -26,3 +26,5 @@ Most of the code in this project has been written to the ES6 JavaScript specific
 
 
 
+### Extra Resources
+Some of the other works that were not specifically given to me was a lot of google documentation, but most else I think was given to me directly from the course and links in the course.
