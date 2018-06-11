@@ -269,6 +269,8 @@ nav h1 a {
 }
 #reviews-list li p {
   margin: 0 0 10px;
+  padding-top: 1em;
+
 }
 #restaurant-hours td {
   color: #666;

@@ -1,4 +1,4 @@
-#maincontent {
+.inside #maincontent {
      display:flex;
      flex-wrap:wrap;
     padding-right: 0px;
