@@ -15,3 +15,13 @@
     position: absolute;
     margin-top: 60px;
 }
+.filter-options select {
+    height: 40px;
+    width: 100%;
+}
+.filter-options h2 {
+    width: 100%;
+}
+#restaurants-list li {
+    width: 80%;
+}
