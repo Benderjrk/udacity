@@ -1,0 +1,17 @@
+#maincontent {
+     display:flex;
+     flex-wrap:wrap;
+    padding-right: 0px;
+ }
+#restaurant-container {
+    margin-top: 30em;
+}
+#restaurant-container, #reviews-container {
+    width: 100%;
+}
+.inside #map-container {
+    height: 15%;
+    width:100%;
+    position: absolute;
+    margin-top: 60px;
+}
