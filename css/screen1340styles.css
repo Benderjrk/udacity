@@ -1,7 +1,7 @@
 .inside #maincontent {
      display:flex;
      flex-wrap:wrap;
-    padding-right: 0px;
+     padding-right: 0;
  }
 #restaurant-container {
     margin-top: 30em;
